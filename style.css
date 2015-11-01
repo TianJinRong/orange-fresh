@@ -1,0 +1,410 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-color: #EEE;
+  font-family: 'Microsoft YaHei';
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+/*nav*/
+.navbar-brand {
+  padding: 33px 15px;
+  height: 100px;
+}
+
+.nav>li>a {
+  padding: 33px 35px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #F7931E;
+}
+
+.nav>li>a>.glyphicon {
+  font-size: 30px;
+}
+.yii2demo-logo {
+  background:url('css/yii2demo-logo-30-200.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 200px;
+}
+.yii-logo {
+  background:url('css/yii-shadow-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+.yii-logo:hover {
+  background:url('css/yii-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+
+.wordpress-logo {
+  background:url('css/wordpress-shadow-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+.wordpress-logo:hover {
+  background:url('css/wordpress-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+
+.html5-logo {
+  background:url('css/html5-shadow-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+.html5-logo:hover {
+  background:url('css/html5-30.png') no-repeat 0px 0px;
+  height: 35px;
+  width: 30px;
+}
+/*slide*/
+.slide {
+  background: #FFF;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.slide .slide-content {
+  width: 100%;
+  background: #000;
+}
+
+.slide .slide-content>.text {
+  height: 320px;
+  background: #F7931E;
+  padding: 30px;
+  color: #FFF;
+  text-align: right;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.slide .slide-content>.text>.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.slide .slide-content>.text>.author {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #B3B3B3;
+  border-color: #B3B3B3;
+}
+
+.carousel-indicators .active {
+  background-color: #F7931E;
+  border-color: #F7931E;
+}
+
+
+/*text*/
+.text-list {
+  background-color: #FFF;
+  margin-bottom: 15px;
+  padding: 30px 0px;
+}
+.text-header {
+  height: 80px;
+  background-color: #F7931E;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.text-header>i {
+  font-size: 30px;
+  line-height: 80px;
+}
+.text-header>span>img {
+  margin-top: 22px;
+}
+.text-header>.article-number {
+  font-size: 110px;
+}
+.text-list>.text-abstract, .text-list>.text-hot, .text-list>.text-cards, .text-list>.text-comments, .text-list>.send-comment {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.text-list>.text-abstract>.row, .text-list>.text-cards>.row {
+  margin-top: 30px;
+}
+.text-list>.text-abstract>.row:last-child, .text-list>.text-cards>.row:last-child {
+  margin-top: 0px;
+}
+.text-list .text-info {
+  font-weight: bold;
+  padding: 0px 0px;
+}
+.text-list .text-info>.title {
+  color: #000;
+  font-size: 25px;
+  height: 40px;
+}
+.text-list .text-info>.author {
+  color: #B3B3B3;
+  font-size: 15px;
+  height: 30px;
+}
+.text-list .text-info>.detail {
+  color: #000;
+  font-size: 20px;
+  height: 80px;
+}
+.text-list>.text-cards .text-info{
+  background-color: #B3B3B3;
+  padding: 30px;
+}
+
+.text-list>.text-cards .text-info>.author {
+  color: #FFF;
+}
+.text-list>.text-cards .pagination>li>a {
+  border: 0px;
+  color: #000;
+  font-size: 30px;
+}
+.text-list>.text-cards .pagination>li>a:hover{
+  color: #FFF;
+  background-color: #F7931E;
+}
+
+/*hot*/
+.text-list>.text-hot .image-story {
+  margin-top: 30px;
+}
+.text-list>.text-hot .image-story>.feature-img {
+  height: 150px;
+  position: relative;
+}
+.text-list>.text-hot .image-story>.feature-img img {
+  
+}
+.text-list>.text-hot .image-story>.feature-img .title {
+  color: #FFF;
+  font-size: 25px;
+  line-height: 150px;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.text-list>.text-hot .image-story .feature-buttons {
+  position: relative;
+  font-size: 30px;
+  color: #F7931E;
+}
+.text-list>.text-hot>.image-story>.feature-buttons>div {
+  padding: 0px;
+  
+}
+.text-list>.text-hot>.image-story>.feature-buttons>.view,
+.text-list>.text-hot>.image-story>.feature-buttons>.like,
+.text-list>.text-hot>.image-story>.feature-buttons>.share {
+  text-align: center;
+  color: #F7931E;
+}
+.text-list>.text-hot>.image-story>.feature-buttons>.view>a,
+.text-list>.text-hot>.image-story>.feature-buttons>.like>a,
+.text-list>.text-hot>.image-story>.feature-buttons>.share>a {
+  display: block;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  color: #F7931E;
+}
+.text-list>.text-hot>.image-story>.feature-buttons>.view span,
+.text-list>.text-hot>.image-story>.feature-buttons>.like span,
+.text-list>.text-hot>.image-story>.feature-buttons>.share span {
+  width: 40px;
+  height: 40px;
+}
+.text-list>.text-hot .image-story .feature-buttons>.view{
+  background-color: #F2F2F2;
+}
+.text-list>.text-hot .image-story .feature-buttons>.like{
+  background-color: #E6E6E6;
+}
+.text-list>.text-hot .image-story .feature-buttons>.share{
+  background-color: #CCCCCC;
+}
+.text-list>.text-hot .image-story .feature-buttons>.view:hover,
+.text-list>.text-hot .image-story .feature-buttons>.like:hover,
+.text-list>.text-hot .image-story .feature-buttons>.share:hover {
+  background-color: #F7931E;
+}
+.text-list>.text-hot .image-story .feature-buttons .view:hover,
+.text-list>.text-hot .image-story .feature-buttons .like:hover,
+.text-list>.text-hot .image-story .feature-buttons .share:hover {
+  color: #FFF;
+}
+
+/*article*/
+.article {
+  background-color: #FFF;
+  margin-bottom: 15px;
+  padding: 30px 0px;
+}
+.article>.article-header {
+  background-color: #F7931E;
+  color: #FFF;
+  vertical-align: middle;
+  padding: 30px 60px;
+}
+.article>.article-header>.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.article>.article-header>.author {
+  padding-top: 22px;
+  font-size: 20px;
+}
+.article>.article-body {
+  color: #000;
+  vertical-align: middle;
+  padding: 30px 60px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.article>.article-body h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.article>.article-body ul {
+  margin: 0px;
+  height: auto;
+  list-style-type: decimal;
+}
+.article>.article-body ul li {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+.article>.article-nav {
+  vertical-align: middle;
+  padding: 30px 60px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.article>.article-nav>div>p {
+  color: #666666;
+}
+.article>.article-nav>div>p>a {
+  color: #F7931E;
+}
+.article>.article-nav>.next-article {
+  text-align: right;
+}
+.text-list>.text-comments>.text-comment {
+  padding-top: 30px;
+}
+.text-list>.text-comments>.text-comment .author-profile {
+  width: 100px;
+  height: 100px;
+  background-color: #F7931E;
+}
+.text-list>.text-comments>.text-comment .comment-content>.comment-title {
+  background-color: #666;
+  color: #FFF;
+  font-size: 18px;
+  padding: 30px 30px;
+}
+.text-list>.text-comments>.text-comment .comment-content>.comment-body {
+  font-size: 20px;
+  background-color: #F2F2F2;
+  padding: 30px 30px;
+}
+.text-list>.send-comment form {
+  padding: 30px 0px;
+}
+
+/*footer*/
+.footer>.links {
+  background-color: #222;
+  height: auto;
+  font-size: 20px;
+  padding: 60px 0px;
+}
+
+.footer>.links ul {
+  padding: 0px 0px;
+}
+
+.footer>.links .title {
+  font-size: 30px;
+  color: #F7931E;
+  padding-bottom: 30px;
+}
+
+.footer>.links li {
+  padding-bottom: 10px;
+}
+
+.footer>.links li:last-child {
+  padding-bottom: 0px;
+}
+
+.footer>.links a {
+  color: #B3B3B3;
+}
+
+.footer>.links a:hover {
+  color: #FFF;
+}
+
+.footer>.copyright {
+  background-color: #666;
+  color: #B3B3B3;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
+.footer>.copyright a {
+  color: #F7931E;
+}
